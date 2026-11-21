@@ -1,18 +1,193 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    
-    <title>Om's Page</title>
-    
-    <!-- Main CSS files -->
-    <link href="./style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <h2>Om Shivam Verma</h2>
-    <p>MSCS Student at Georgia Institute of Technology, Atlanta, GA, USA</p>
-    <p>BS in Statistics and Data Science at Indian Institute of Technology, Kanpur, UP, India</p>
-    <p>Knowledge is Power</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Om Shivam Verma</title>
+  <meta name="description" content="Om Shivam Verma - MS CS student at Georgia Tech, Research Assistant at Lunar Lab.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand">Om Shivam Verma</a>
+      
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24"><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24"><path d="M12.3 2a10 10 0 0 0-.19 2 10 10 0 0 0 10 10c.7 0 1.37-.07 2-.19A10 10 0 1 1 12.3 2z"/></svg>
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  
+  <main>
+    <div class="container">
+      
+      
+      <section class="hero">
+        <img src="assets/images/myphoto_Sept2026.jpg" alt="Om Shivam Verma" class="hero-avatar">
+        <div class="hero-details">
+          <h1 class="hero-name">Om Shivam Verma</h1>
+          <p class="hero-title">MS Computer Science @ Georgia Tech</p>
+          
+          <div class="social-btn-group">
+            <a href="mailto:overma3@gatech.edu" class="social-icon-btn" title="Email (overma3@gatech.edu)" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+            </a>
+            <a href="https://github.com/omsv135" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub (@omsv135)" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/omsv135" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://scholar.google.com/citations?user=UkRxZe0AAAAJ" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Google Scholar" aria-label="Google Scholar">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+            </a>
+            <a href="assets/docs/OmShivamVerma_CV_September_2026.pdf" target="_blank" class="social-icon-btn" title="Curriculum Vitae (PDF)" aria-label="Curriculum Vitae (PDF)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <text x="11" y="16.5" font-size="6.5" font-weight="700" fill="currentColor" stroke="none" font-family="system-ui, sans-serif" text-anchor="middle">CV</text>
+              </svg>
+            </a>
+            <a href="assets/docs/OmShivamVerma_Resume_September_2026.pdf" target="_blank" class="social-icon-btn" title="Resume (PDF)" aria-label="Resume (PDF)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <line x1="10" y1="9" x2="8" y2="9"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="prose">
+        <p class="statement">
+          I solve hard technical problems by building and deploying systems with frontier AI.<br>
+          My goal: Understand complex intelligent systems from first-principles foundations to real-world engineering, and make them work reliably at scale.
+        </p>
+
+        <p>
+          I am a Master's student in Computer Science at <strong>Georgia Tech</strong>, working at the <strong>Lunar Lab</strong> under <a href="https://ganlumomo.github.io/" target="_blank" rel="noopener noreferrer">Prof. Lu Gan</a> on frontier problems in real-time multi-robot collaboration. My current research focuses on collaborative, open-vocabulary 3D scene understanding using 3D Gaussian Splatting and foundation vision-language models. We presented our latest work, CoGaussian, at the IROS 2026 SeMaNa Workshop 🤖 in Pittsburgh.
+        </p>
+
+        <p>
+          Previously, I graduated from <strong>Indian Institute of Technology, Kanpur</strong>, with a Bachelor of Science in Statistics &amp; Data Science and a minor in Computer Systems. My coursework provided a deep grounding in probability, statistical learning, and big data techniques. My extra-curriculars heavily involved robotics and software development. During this time, I worked with <a href="https://www.cse.iitk.ac.in/users/pmalakar/" target="_blank" rel="noopener noreferrer">Prof. Preeti Malakar</a> in High Performance Computing, working on identifying and optimising communication bottlenecks in distributed deep learning that culminated in a short paper at <strong>IEEE HiPC 2024</strong> (Student Research Symposium).
+        </p>
+
+        <p>
+          Check out my <a href="research.html">research</a> and <a href="experience.html">experience</a>.
+        </p>
+        <div class="status-note">
+          <strong>Seeking full-time roles</strong> (Expected graduation: May 2027): <strong>AI/ML Engineer</strong> and, <strong>Research Engineer/Scientist</strong> roles in computer vision, perception, and robotics.
+        </div>
+      </section>
+
+      
+      <section class="section">
+        <h2 class="section-title">Recent Updates</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <span class="news-date">Jan 2027</span>
+            <span class="news-text">Upcoming Graduate Teaching Assistant for <em>CS8803 Advanced Mobile Robotics</em> under Prof. Frank Dellaert.</span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Oct 2026</span>
+            <span class="news-text">Presented CoGaussian at the <em>IROS 2026 SeMaNa Workshop</em> (Pittsburgh, PA).</span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Aug 2026</span>
+            <span class="news-text">Graduate Teaching Assistant for <em>CS8803 Deep Reinforcement Learning</em> under Prof. Animesh Garg.</span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Aug 2026</span>
+            <span class="news-text">Completed AI development internship at Benepower.</span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Jan 2026</span>
+            <span class="news-text">Joined the Lunar Lab at Georgia Tech under Prof. Lu Gan.</span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Aug 2025</span>
+            <span class="news-text">Started MS in Computer Science at GeorgiaTech.</span>
+          </li>
+        </ul>
+      </section>
+
+      
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="clean-list">
+          <div class="entry-block">
+            <div class="entry-header">
+              <span class="entry-role">Georgia Institute of Technology</span>
+              <span class="entry-date">2025 – Expected May 2027</span>
+            </div>
+            <div class="entry-org">Master of Science in Computer Science &middot; GPA 4.0/4.0</div>
+          </div>
+
+          <div class="entry-block">
+            <div class="entry-header">
+              <span class="entry-role">Indian Institute of Technology Kanpur</span>
+              <span class="entry-date">2021 – 2025</span>
+            </div>
+            <div class="entry-org">Bachelor of Science in Statistics and Data Science, Minor in Computer Systems &middot; GPA 8.8/10.0 (Distinction)</div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="section" id="teaching">
+        <h2 class="section-title">Teaching</h2>
+        <div class="clean-list">
+          <div class="entry-block">
+            <div class="entry-header">
+              <span class="entry-role" style="font-weight: 400;">(Upcoming) Graduate Teaching Assistant &middot; CS 8803: Advanced Mobile Robotics &middot; Prof. Frank Dellaert </span>
+              <span class="entry-date">Fall 2026</span>
+            </div>
+            <div class="entry-header">
+              <span class="entry-role" style="font-weight: 400;">Graduate Teaching Assistant &middot; CS 8803: Deep Reinforcement Learning &middot; Prof. Animesh Garg </span>
+              <span class="entry-date">Fall 2026</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>&copy; 2026 Om Shivam Verma</div>
+      <div class="footer-links">
+        <a href="mailto:overma3@gatech.edu">Email</a>
+        <a href="https://github.com/omsv135" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/omsv135" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=UkRxZe0AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
