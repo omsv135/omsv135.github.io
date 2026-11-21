@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://omsv135.github.io/sitemap.xml
